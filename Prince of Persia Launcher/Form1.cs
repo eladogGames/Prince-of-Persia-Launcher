@@ -5,6 +5,9 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.Threading;
+using System.Diagnostics;
+using System.Runtime.InteropServices;
 
 namespace Prince_of_Persia_Launcher
 {
@@ -23,6 +26,12 @@ namespace Prince_of_Persia_Launcher
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var settings = new Settings();
+            settings.ShowDialog();
         }
     }
 }
