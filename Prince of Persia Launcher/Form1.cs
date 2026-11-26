@@ -19,5 +19,10 @@ namespace Prince_of_Persia_Launcher
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
