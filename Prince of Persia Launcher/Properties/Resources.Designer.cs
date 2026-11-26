@@ -63,6 +63,26 @@ namespace Prince_of_Persia_Launcher.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _0041 {
+            get {
+                object obj = ResourceManager.GetObject("0041", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _127419792 {
+            get {
+                object obj = ResourceManager.GetObject("127419792", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _1364 {
             get {
                 object obj = ResourceManager.GetObject("1364", resourceCulture);
@@ -76,6 +96,16 @@ namespace Prince_of_Persia_Launcher.Properties {
         internal static System.Drawing.Bitmap _1366 {
             get {
                 object obj = ResourceManager.GetObject("1366", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images {
+            get {
+                object obj = ResourceManager.GetObject("images", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
